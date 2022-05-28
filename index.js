@@ -100,7 +100,6 @@ users.push(firstUser, secondUser)
 function main() {
     console.log(users.length || users.size);
     console.log(users);
-    console.table(users)
 }
 
 main();
