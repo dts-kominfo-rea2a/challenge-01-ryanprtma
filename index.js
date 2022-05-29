@@ -10,15 +10,8 @@ firstUser.age = 17
 firstUser.email = "monica@dingdong.com"
 firstUser.isHavePet = true
 
-let colors = new Set()
-
-colors.add("Yellow")
-colors.add("Pink")
-colors.add("White")
-colors.add("Purple")
-
-
-firstUser.favoriteColor = colors
+firstUser.favoriteColor = []
+firstUser.favoriteColor.push("Yellow", "Pink", "White", "Purple")
 
 const educations1 = []
 
@@ -34,20 +27,8 @@ educations1[2] = {
 
 firstUser.education = educations1
 
-let favouriteRestaurants = new Set()
-favouriteRestaurants.add("Bento")
-favouriteRestaurants.add("Sushi")
-favouriteRestaurants.add("Pancake")
-favouriteRestaurants.add("Eggy")
-favouriteRestaurants.add("Tempura")
-favouriteRestaurants.add("Bento")
-favouriteRestaurants.add("Eggy")
-favouriteRestaurants.add("Padang")
-favouriteRestaurants.add("Tteok")
-favouriteRestaurants.add("Sushi")
-favouriteRestaurants.add("Sushi")
-
-firstUser.favoriteRestaurant = favouriteRestaurants
+firstUser.favoriteRestaurant = []
+firstUser.favoriteRestaurant.push("Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Padang", "Tteok")
 
 secondUser.name = "Wendy"
 secondUser.gender = "Male"
@@ -56,13 +37,8 @@ secondUser.email = "wendy@dingdong.com"
 
 secondUser.isHavePet = false
 
-colors = new Set()
-
-colors.add("Blue")
-colors.add("Black")
-colors.add("Grey")
-
-secondUser.favoriteColor = colors
+secondUser.favoriteColor = []
+secondUser.favoriteColor.push("Blue", "Black", "Grey")
 
 const educations2 = []
 educations2[0] = {
@@ -80,18 +56,9 @@ educations2[3] = {
 
 secondUser.education = educations2
 
-favouriteRestaurants = new Set()
-favouriteRestaurants.add("Tempura")
-favouriteRestaurants.add("Bento")
-favouriteRestaurants.add("Sushi")
-favouriteRestaurants.add("Pancake")
-favouriteRestaurants.add("Padang")
-favouriteRestaurants.add("Katsu")
-favouriteRestaurants.add("Geprek")
-favouriteRestaurants.add("Pancake")
-favouriteRestaurants.add("Eggy")
+secondUser.favoriteRestaurant = []
+secondUser.favoriteRestaurant.push("Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Eggy")
 
-secondUser.favoriteRestaurant = favouriteRestaurants
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [];
 users.push(firstUser, secondUser)
