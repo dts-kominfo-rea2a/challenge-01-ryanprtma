@@ -18,7 +18,7 @@ colors.add("White")
 colors.add("Purple")
 
 
-firstUser.favouriteColor = colors
+firstUser.favoriteColor = colors
 
 const educations1 = []
 
@@ -47,12 +47,14 @@ favouriteRestaurants.add("Tteok")
 favouriteRestaurants.add("Sushi")
 favouriteRestaurants.add("Sushi")
 
-firstUser.favouriteRestaurants = favouriteRestaurants
+firstUser.favoriteRestaurant = favouriteRestaurants
 
 secondUser.name = "Wendy"
 secondUser.gender = "Male"
 secondUser.age = 23
 secondUser.email = "wendy@dingdong.com"
+
+secondUser.isHavePet = false
 
 colors = new Set()
 
@@ -60,9 +62,7 @@ colors.add("Blue")
 colors.add("Black")
 colors.add("Grey")
 
-secondUser.favouriteColor = colors
-
-secondUser.isHavePet = false
+secondUser.favoriteColor = colors
 
 const educations2 = []
 educations2[0] = {
@@ -91,7 +91,7 @@ favouriteRestaurants.add("Geprek")
 favouriteRestaurants.add("Pancake")
 favouriteRestaurants.add("Eggy")
 
-secondUser.favouriteRestaurants = favouriteRestaurants
+secondUser.favoriteRestaurant = favouriteRestaurants
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [];
 users.push(firstUser, secondUser)
